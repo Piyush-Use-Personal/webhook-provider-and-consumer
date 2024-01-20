@@ -1,0 +1,14 @@
+{
+  "name": "webhook-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run consumer && npm run provider",
+    "consumer": "cd consumer-server && npm start",
+    "provider": "cd provider-server && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
